@@ -3,6 +3,7 @@ package com.madrapps.jacoco.operation;
 public class StringOp {
 
     public boolean endsWith(String source, String chars) {
+        System.out.println("s");
         return source.endsWith(chars);
     }
 
